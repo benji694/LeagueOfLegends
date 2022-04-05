@@ -34,3 +34,43 @@ h1 {
         clip-path: polygon(0% 0%, 200% 0%, 0% 200%);
     }
 }
+#filters{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin: 2em;
+    border: #C1C1C1 1px solid ;
+}
+
+#filterClass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 35%;
+    color: #C1C1C1;
+    margin: 0;
+}
+#filterClass li{
+    cursor: pointer;
+}
+.filterClassSelected{
+    color: black;
+    border-bottom: solid black 1px;
+}
+#filterClass li:hover{
+    color: black;
+    border-bottom: solid black 1px;
+    transition: 1s;
+}
+
+.difficult{
+    width: 30px;
+    height: 10px;
+    margin: 0.5em 0;
+    clip-path: polygon(20% 0%, 100% 0, 80% 100%, 0% 100%);
+    background-color: #08D6F6;
+}
+.difficult-dark{
+    background-color: #CEF7FD;
+}
