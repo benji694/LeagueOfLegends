@@ -3,7 +3,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 500px;
+    position: relative;
 }
 
 video {
@@ -12,7 +12,6 @@ video {
     height: 600px;
     top: 0;
     left: 0;
-    position: fixed;
     z-index: 0;
 }
 h1 {
@@ -24,6 +23,7 @@ h1 {
     text-shadow: 0px 0px 15px #000000;
     animation-duration: 1.5s;
     animation-name: textspawn;
+    position: absolute;
 }
 
 @keyframes textspawn {
