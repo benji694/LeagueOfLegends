@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 600px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 0;
+}
+h1 {
+    font-size: 80px;
+    z-index: 99;
+    color: white;
+    font-family: "beaufort";
+    font-style: italic;
+    text-shadow: 0px 0px 15px #000000;
+    animation-duration: 1.5s;
+    animation-name: textspawn;
+}
+
+@keyframes textspawn {
+    0% {
+        clip-path: polygon(0% 0%, 0% 0%, 0% 0%);
+    }
+    100% {
+        clip-path: polygon(0% 0%, 200% 0%, 0% 200%);
+    }
+}
