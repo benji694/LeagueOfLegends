@@ -34,11 +34,15 @@ h1 {
         clip-path: polygon(0% 0%, 200% 0%, 0% 200%);
     }
 }
+
+
+main{
+    padding: 2em;
+}
 #filters{
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    margin: 2em;
     border: #C1C1C1 1px solid ;
 }
 
