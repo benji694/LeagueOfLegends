@@ -78,3 +78,12 @@ main{
 .difficult-dark{
     background-color: #CEF7FD;
 }
+
+#champions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
